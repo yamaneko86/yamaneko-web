@@ -10,11 +10,42 @@ export default function Home() {
           height={150}
           width={150}
           alt={"yamaneko-icon"}
-          className="rounded-full hover:animate-spin"
+          className="rounded-full hover:animate-spin "
         />
         <div className="font-serif text-3xl mx-5">
           ヤマネコのポートフォリオWebサイト。
         </div>
+      </div>
+      <div className="mb-5">
+        システムエンジニアとして働いてます。
+        <br />
+        実務が<span className="line-through">（つまらない）</span>
+        レガシー環境なので、
+        <br />
+        趣味で個人開発（主にNext.js）して
+        <br />
+        気を紛らわしてます。
+      </div>
+
+      <div className="mb-5">
+        作ったもの（リンクになってるよ）
+        <ul>
+          <li>
+            <Link href={"https://basket-court-map-ts.vercel.app/"}>
+              ・バスケットコートマップ
+            </Link>
+          </li>
+          <li>
+            <Link href={"https://todoapp-with-supabase-plum.vercel.app/"}>
+              ・Todoアプリ
+            </Link>
+          </li>
+          <li>
+            <Link href={"https://chatgpt-clone-rho-sooty.vercel.app/"}>
+              ・ChatGPTクローン
+            </Link>
+          </li>
+        </ul>
       </div>
       <div className="mb-5">
         各アカウントはこちら
@@ -49,26 +80,6 @@ export default function Home() {
             />
           </Link>
         </div>
-      </div>
-      <div className="mb-5">
-        作ったもの（リンクになってるよ）
-        <ul>
-          <li>
-            <Link href={"https://basket-court-map-ts.vercel.app/"}>
-              ・バスケットコートマップ
-            </Link>
-          </li>
-          <li>
-            <Link href={"https://todoapp-with-supabase-plum.vercel.app/"}>
-              ・Todoアプリ
-            </Link>
-          </li>
-          <li>
-            <Link href={"https://chatgpt-clone-rho-sooty.vercel.app/"}>
-              ・ChatGPTクローン
-            </Link>
-          </li>
-        </ul>
       </div>
     </div>
   );

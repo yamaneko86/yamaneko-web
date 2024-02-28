@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "ヤマネコのポートフォリオWebサイト",
   // アイコンの設定
   icons: {
-    icon: "/yamaneko-icon.jpg",
+    icon: "/yamaneko-icon.png",
   },
 };
 

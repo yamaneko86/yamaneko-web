@@ -6,11 +6,11 @@ export default function Home() {
     <div className="bg-black h-screen m-5">
       <div className="flex flex-row items-center mb-5">
         <Image
-          src={"/yamaneko-icon.jpg"}
+          src={"/yamaneko-icon.png"}
           height={150}
           width={150}
           alt={"yamaneko-icon"}
-          className="rounded-full hover:animate-spin "
+          className="hover:animate-spin "
         />
         <div className="font-serif text-3xl mx-5">
           ヤマネコのポートフォリオWebサイト（仮）

@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ヤマネコのWebサイト。",
   description: "ヤマネコのポートフォリオWebサイト",
+  // アイコンの設定
+  icons: {
+    icon: "/yamaneko-icon.jpg",
+  },
 };
 
 export default function RootLayout({

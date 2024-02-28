@@ -13,13 +13,13 @@ export default function Home() {
           className="rounded-full hover:animate-spin "
         />
         <div className="font-serif text-3xl mx-5">
-          ヤマネコのポートフォリオWebサイト。
+          ヤマネコのポートフォリオWebサイト（仮）
         </div>
       </div>
       <div className="mb-5">
         システムエンジニアとして働いてます。
         <br />
-        実務が<span className="line-through">（つまらない）</span>
+        実務が<span className="line-through">つまらない</span>
         レガシー環境なので、
         <br />
         趣味で個人開発（主にNext.js）して
@@ -32,17 +32,17 @@ export default function Home() {
         <ul>
           <li>
             <Link href={"https://basket-court-map-ts.vercel.app/"}>
-              ・バスケットコートマップ
+              ・<span className="hover:underline">バスケットコートマップ</span>
             </Link>
           </li>
           <li>
             <Link href={"https://todoapp-with-supabase-plum.vercel.app/"}>
-              ・Todoアプリ
+              ・<span className="hover:underline">Todoアプリ</span>
             </Link>
           </li>
           <li>
             <Link href={"https://chatgpt-clone-rho-sooty.vercel.app/"}>
-              ・ChatGPTクローン
+              ・<span className="hover:underline">ChatGPTクローン</span>
             </Link>
           </li>
         </ul>
@@ -53,8 +53,8 @@ export default function Home() {
           <Link href={"https://github.com/yamaneko86"}>
             <Image
               src={"/github-icon-white.png"}
-              height={25}
-              width={25}
+              height={30}
+              width={30}
               alt={"github-icon"}
               className="mr-2"
             />
@@ -63,8 +63,8 @@ export default function Home() {
           <Link href={"https://twitter.com/yamaneko8699/"}>
             <Image
               src={"/x-icon-white.png"}
-              height={25}
-              width={25}
+              height={30}
+              width={30}
               alt={"twitter-icon"}
               className="mr-2"
             />
@@ -73,13 +73,16 @@ export default function Home() {
           <Link href={"https://qiita.com/yamaneko86/"}>
             <Image
               src={"/qiita-icon.png"}
-              height={25}
-              width={25}
+              height={30}
+              width={30}
               alt={"qiita-icon"}
               className="mr-2"
             />
           </Link>
         </div>
+      </div>
+      <div className="text-4xl text-gray-800">
+        ダサ過ぎるのでいつかちゃんとしたの作ろう。。
       </div>
     </div>
   );

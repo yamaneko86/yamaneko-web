@@ -24,7 +24,7 @@ export default function Home() {
         <br />
         趣味で個人開発（主にNext.js）して
         <br />
-        気を紛らわしてます。
+        気を紛らわしてます。モダン環境、万歳。
       </div>
 
       <div className="mb-5">

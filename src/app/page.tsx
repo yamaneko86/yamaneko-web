@@ -48,7 +48,7 @@ export default function Home() {
         </ul>
       </div>
       <div className="mb-5">
-        各アカウントはこちら
+        各SNSアカウントはこちら
         <div className="flex flex-row">
           <Link href={"https://github.com/yamaneko86"}>
             <Image

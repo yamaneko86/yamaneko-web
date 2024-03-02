@@ -81,9 +81,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="text-4xl text-gray-800">
-        ダサ過ぎるのでいつかちゃんとしたの作ろう。。
-      </div>
     </div>
   );
 }

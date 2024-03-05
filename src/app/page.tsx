@@ -22,8 +22,6 @@ export default function Home() {
     }
   };
 
-  console.log(count);
-
   return (
     <div className="bg-black h-screen m-5">
       <div className="flex flex-row items-center mb-5">

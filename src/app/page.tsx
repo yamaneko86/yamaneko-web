@@ -1,7 +1,29 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Home() {
+  const [count, setCount] = useState<number>(0);
+  const [text, setText] = useState<string>("アイコン絶対押すなよ〜");
+
+  const changeText = () => {
+    setCount(count + 1);
+    if (count == 0) {
+      setText("は？もう押すなよ？");
+    } else if (count == 1) {
+      setText("だから押すなってば。");
+    } else if (count == 2) {
+      setText("最後だぞ。もう絶対押すなよ？？");
+    } else if (count == 3) {
+      setText("俺のこと好きやん。。");
+    } else {
+      setText("茶番 〜完〜");
+    }
+  };
+
+  console.log(count);
+
   return (
     <div className="bg-black h-screen m-5">
       <div className="flex flex-row items-center mb-5">
@@ -10,14 +32,16 @@ export default function Home() {
           height={150}
           width={150}
           alt={"yamaneko-icon"}
-          className="hover:animate-spin "
+          className="hover:animate-spin"
+          onClick={() => changeText()}
         />
         <div className="font-serif text-3xl mx-5">
           ヤマネコのポートフォリオWebサイト（仮）
         </div>
       </div>
+      <div className="font-serif text-xl mx-5 mb-5">{text}</div>
       <div className="mb-5">
-        システムエンジニアとして働いてます。
+        SIerでシステムエンジニアとして働いてます。
         <br />
         実務が<span className="line-through">つまらない</span>
         レガシー環境なので、

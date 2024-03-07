@@ -70,7 +70,7 @@ export default function Home() {
         </ul>
       </div>
       <div className="mb-5">
-        各SNSアカウントはこちら
+        <div className="mb-1">各SNSアカウントはこちら</div>
         <div className="flex flex-row">
           <Link href={"https://github.com/yamaneko86"}>
             <Image
@@ -78,7 +78,7 @@ export default function Home() {
               height={30}
               width={30}
               alt={"github-icon"}
-              className="mr-2"
+              className="mr-3"
             />
           </Link>
 
@@ -88,7 +88,7 @@ export default function Home() {
               height={30}
               width={30}
               alt={"twitter-icon"}
-              className="mr-2"
+              className="mr-3"
             />
           </Link>
 
@@ -98,7 +98,7 @@ export default function Home() {
               height={30}
               width={30}
               alt={"qiita-icon"}
-              className="mr-2"
+              className="mr-3"
             />
           </Link>
         </div>

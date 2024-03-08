@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div
           id="happy"
-          className="absolute text-sm z-10 ml-9 mt-5 text-red-500"
+          className="absolute text-sm font-bold z-10 ml-9 mt-5 text-red-500"
         >
           {happyState}
         </div>

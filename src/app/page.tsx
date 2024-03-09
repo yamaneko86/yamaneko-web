@@ -79,7 +79,10 @@ export default function Home() {
           </li>
           <li>
             <Link href={"https://chatgpt-clone-rho-sooty.vercel.app/"}>
-              ・<span className="hover:underline">ChatGPTクローン</span>
+              ・
+              <span className="hover:underline">
+                ChatGPTクローン（公開停止中）
+              </span>
             </Link>
           </li>
         </ul>

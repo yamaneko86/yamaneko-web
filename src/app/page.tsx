@@ -67,22 +67,19 @@ export default function Home() {
       <div className="mb-5">
         作ったもの（リンクになってるよ）
         <ul>
-          <li>
+          <li className="hover:underline">
             <Link href={"https://basket-court-map-ts.vercel.app/"}>
-              ・<span className="hover:underline">バスケットコートマップ</span>
+              ◼︎バスケットコートマップ
             </Link>
           </li>
-          <li>
+          <li className="hover:underline">
             <Link href={"https://todoapp-with-supabase-plum.vercel.app/"}>
-              ・<span className="hover:underline">Todoアプリ</span>
+              ◼Todoアプリ
             </Link>
           </li>
-          <li>
+          <li className="hover:underline">
             <Link href={"https://chatgpt-clone-rho-sooty.vercel.app/"}>
-              ・
-              <span className="hover:underline">
-                ChatGPTクローン（公開停止中）
-              </span>
+              ◼ChatGPTクローン（Chat機能停止中）
             </Link>
           </li>
         </ul>

@@ -74,12 +74,12 @@ export default function Home() {
           </li>
           <li className="hover:underline">
             <Link href={"https://todoapp-with-supabase-plum.vercel.app/"}>
-              ◼Todoアプリ
+              ◼︎Todoアプリ
             </Link>
           </li>
           <li className="hover:underline">
             <Link href={"https://chatgpt-clone-rho-sooty.vercel.app/"}>
-              ◼ChatGPTクローン（Chat機能停止中）
+              ◼︎ChatGPTクローン（Chat機能停止中）
             </Link>
           </li>
         </ul>

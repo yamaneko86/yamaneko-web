@@ -56,12 +56,9 @@ export default function Home() {
       <div className="mb-5">
         SIerでシステムエンジニアとして働いてます。
         <br />
-        実務が<span className="line-through">つまらない</span>
-        レガシー環境なので、
+        実務がレガシー環境なので、
         <br />
-        趣味で個人開発（主にNext.js）して
-        <br />
-        気を紛らわしてます。モダン環境、万歳。
+        趣味でモダン技術使って個人開発してます。
       </div>
 
       <div className="mb-5">

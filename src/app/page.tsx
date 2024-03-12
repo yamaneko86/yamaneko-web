@@ -62,7 +62,7 @@ export default function Home() {
       </div>
 
       <div className="mb-5">
-        作ったもの（リンクになってるよ）
+        個人開発（リンクになってるよ）
         <ul>
           <li className="hover:underline">
             <Link href={"https://basket-court-map-ts.vercel.app/"}>

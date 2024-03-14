@@ -58,7 +58,9 @@ export default function Home() {
         <br />
         実務がレガシー環境なので、
         <br />
-        趣味でモダン技術使って個人開発してます。（楽しい）
+        趣味でモダン技術（主にNext.js）使って個人開発してます。（楽しい）
+        <br />
+        Laravelにも触ってみようかな・・・
       </div>
 
       <div className="mb-5">

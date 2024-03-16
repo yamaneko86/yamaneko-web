@@ -56,8 +56,6 @@ export default function Home() {
       <div className="mb-5">
         SIerでシステムエンジニアとして働いてます。
         <br />
-        実務がレガシー環境なので、
-        <br />
         趣味でモダン技術（主にNext.js）使って個人開発してます。
       </div>
 

@@ -63,7 +63,7 @@ export default function Home() {
         個人開発（リンクになってるよ）
         <ul>
           <li className="hover:underline">
-            <Link href={"https://basket-court-map-ts.vercel.app/"}>
+            <Link href={"https://hoopmap.vercel.app/"}>
               ◼︎バスケットコートマップ
             </Link>
           </li>

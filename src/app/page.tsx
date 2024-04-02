@@ -49,14 +49,14 @@ export default function Home() {
 					{happyState}
 				</div>
 				<div className="font-serif text-3xl mx-5">
-					ヤマネコのポートフォリオWebサイト（仮）
+					ヤマネコのポートフォリオWebサイト
 				</div>
 			</div>
 			<div className="font-serif text-xl mx-5 mb-5">{text}</div>
 			<div className="mb-5">
 				SIerでシステムエンジニアとして働いてます。
 				<br />
-				趣味でモダン技術（主にNext.js）使って個人開発してます。
+				趣味でNext.js使って個人開発してます。
 			</div>
 
 			<div className="mb-5">

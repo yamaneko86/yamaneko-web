@@ -60,7 +60,7 @@ export default function Home() {
 			</div>
 
 			<div className="mb-5">
-				個人開発（リンクになってるよ）
+				個人開発（リンクになってます）
 				<ul>
 					<li className="hover:underline">
 						<Link href={"https://hoopmap.vercel.app/"}>

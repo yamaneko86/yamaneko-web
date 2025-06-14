@@ -54,7 +54,7 @@ export default function Home() {
 			</div>
 			<div className="font-serif text-xl mx-5 mb-5">{text}</div>
 			<div className="mb-5">
-				自社開発企業でソフトウェアエンジニアとして働いています
+				自社開発企業でWebエンジニアとして働いています
 				<br />
 				主にPHP(Laravel)を書いてます
 				<br />

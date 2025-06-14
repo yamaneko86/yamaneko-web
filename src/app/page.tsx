@@ -54,9 +54,9 @@ export default function Home() {
 			</div>
 			<div className="font-serif text-xl mx-5 mb-5">{text}</div>
 			<div className="mb-5">
-				SIerでシステムエンジニアとして働いてます
+				自社開発企業でソフトウェアエンジニアとして働いています
 				<br />
-				自社開発SWEに転職しました
+				主にPHP(Laravel)を書いてます
 				<br />
 				趣味でNext.js使って個人開発してます
 			</div>
